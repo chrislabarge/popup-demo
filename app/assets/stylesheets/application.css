@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+
+li .avatar, li .data {
+  display: inline-block;
+  margin: 10px;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+img.circular {
+  border-radius: 50%;
+}

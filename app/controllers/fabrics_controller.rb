@@ -1,6 +1,6 @@
 class FabricsController < ApplicationController
   def index
-    @collection = (0...10).to_a.map do |index|
+    @collection = (1..5).to_a.map do |index|
       name = "fabric_#{index}"
       date = Time.now.send("-", 5.days)
 
