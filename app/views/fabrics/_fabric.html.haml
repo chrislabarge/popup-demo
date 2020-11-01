@@ -2,7 +2,7 @@
   .avatar{ data: { controller: :popup,
                    popup: { content: render("popup", fabric: fabric) } } }
 
-    = image_pack_tag(fabric.image, height: 50, width: 50, class: "circular")
+    = image_pack_tag(fabric.image, class: "circular")
 
   .data
     = fabric.name.titleize
