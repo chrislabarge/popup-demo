@@ -1,0 +1,16 @@
+@import 'tippy.js/dist/tippy.css';
+
+.popup {
+  padding: 7px;
+
+  .image {
+    text-align: center;
+    margin-bottom: 10px;
+
+    img {
+      height: 200px;
+      width: 200px;
+      border-radius: 5px;
+    }
+  }
+}

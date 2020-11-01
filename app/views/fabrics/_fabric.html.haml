@@ -1,5 +1,8 @@
 %li
-  .avatar
+  .avatar{ data: { controller: :popup,
+                   popup: { content: render("popup", fabric: fabric) } } }
+
     = image_tag(fabric.image_url, height: 50, width: 50, class: "circular")
+
   .data
     = fabric.name.titleize
