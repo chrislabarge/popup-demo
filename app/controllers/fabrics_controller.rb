@@ -6,7 +6,7 @@ class FabricsController < ApplicationController
 
       Fabric.new(
         name: name,
-        image_url: "/#{name}.jpg",
+        image: "#{name}.jpg",
         created_at: date,
       )
     end
