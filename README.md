@@ -1,24 +1,22 @@
-# README
+# Rails 6, Stimulus, Webpacker and Tippy.js
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a Rails 6 demo application for my [ tutorial
+](http://chrislabarge.com/posts/stimulus-popup/) on installing
+[Tippy.js](https://atomiks.github.io/tippyjs/) popup Javascript library.
 
-Things you may want to cover:
+[Hosted Application](https://popup-demo.herokuapp.com/) (Free hobby dyno...may take 10-20 seconds to wake up)
 
-* Ruby version
+Visit [chrislabarge.com](http://chrislabarge.com) for more content.
 
-* System dependencies
+Technologies used
+-----------------------------
 
-* Configuration
+- [Ruby on Rails 6.0.2.2](https://github.com/rails/rails) - Ruby Web Framework
+- [StimulusJS](https://github.com/stimulusjs/stimulus) - A minimal Javascript framework developed by Basecamp.
+- [Webpacker](https://github.com/rails/webpacker) - Rails gem for using Webpack to bundle Javascript modules.
+- [Tippy.js](https://atomiks.github.io/tippyjs/) - Popup Javascript library.
 
-* Database creation
+Demo
+-------------------
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![](https://github.com/chrislabarge/popup-demo/blob/master/public/popup.gif)
